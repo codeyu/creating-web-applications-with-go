@@ -1,0 +1,63 @@
+{{define "content"}}
+	<form action="." method="post" class="row profile">
+		<div class="columns small-8 small-offset-2">
+			<div class="row">
+				<div class="columns small-10 small-offset-2">
+					<h3>Contact Information</h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-6 text-right">First Name</div>
+				<div class="columns small-6">
+					<input type="text" name="firstName" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-6 text-right">Last Name</div>
+				<div class="columns small-6">
+					<input type="text" name="lastName" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-6 text-right">Email Address</div>
+				<div class="columns small-6">
+					<input type="text" name="email" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-10 small-offset-2">
+					<h3>Stand Information</h3>
+				</div>
+			</div>
+				<div class="row">
+				<div class="columns small-6 text-right">Address</div>
+				<div class="columns small-6">
+					<input type="text" name="standAddress" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-6 text-right">City</div>
+				<div class="columns small-6">
+					<input type="text" name="standCity" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-6 text-right">State</div>
+				<div class="columns small-6">
+					<input type="text" name="standState" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-6 text-right">Zip Code</div>
+				<div class="columns small-6">
+					<input type="text" name="standZip" />
+				</div>
+			</div>
+			<div class="row">
+				<div class="columns small-12 text-right">
+					<button class="small" type="submit">Save</button>
+				</div>
+			</div>
+		</div>
+	</form>
+{{end}}
